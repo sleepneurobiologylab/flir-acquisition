@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+*.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Bonsai
+bonsai/Packages/
+bonsai/*.exe
+bonsai/*.exe.config
+bonsai/NuGet.config
+*.bonsai.layout
+
+# Arduino build artifacts
+arduino/**/build/
+arduino/**/.cache/
+*.hex
+*.elf
+*.map
+
+# Data files (recordings, videos — keep out of git)
+*.avi
+*.mp4
+*.bin
+*.dat
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

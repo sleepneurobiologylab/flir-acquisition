@@ -1,0 +1,4 @@
+numpy>=1.24
+pandas>=2.0
+open-ephys-python-tools>=0.1.9
+tqdm>=4.0
